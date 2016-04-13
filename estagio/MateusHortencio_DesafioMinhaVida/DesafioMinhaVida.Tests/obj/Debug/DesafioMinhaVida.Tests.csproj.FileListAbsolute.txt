@@ -1,0 +1,102 @@
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\ApplicationInsights.config
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\roslyn\csc.exe
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\roslyn\vbc.exe
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\br.mateus.DesafioMinhaVida.Tests.dll.config
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\br.mateus.DesafioMinhaVida.Tests.dll
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\br.mateus.DesafioMinhaVida.Tests.pdb
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\br.mateus.DesafioMinhaVida.dll
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\br.mateus.DesafioMinhaVida.pdb
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\obj\Debug\DesafioMinhaVida.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\obj\Debug\br.mateus.DesafioMinhaVida.Tests.dll
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\obj\Debug\br.mateus.DesafioMinhaVida.Tests.pdb
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\AutoMapper.dll
+C:\Users\Negro cotista\documents\visual studio 2015\Projects\br.mateus.DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\AutoMapper.xml
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\ApplicationInsights.config
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\roslyn\csc.exe
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\roslyn\vbc.exe
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\br.mateus.DesafioMinhaVida.Tests.dll.config
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\br.mateus.DesafioMinhaVida.Tests.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\br.mateus.DesafioMinhaVida.Tests.pdb
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\br.mateus.DesafioMinhaVida.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\br.mateus.DesafioMinhaVida.pdb
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\obj\Debug\DesafioMinhaVida.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\obj\Debug\br.mateus.DesafioMinhaVida.Tests.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\obj\Debug\br.mateus.DesafioMinhaVida.Tests.pdb
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\DesafioMinhaVida.Persistencia.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\br.mateus.DesafioMinhaVida.Tests\bin\Debug\DesafioMinhaVida.Persistencia.pdb
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\ApplicationInsights.config
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\roslyn\csc.exe
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\roslyn\vbc.exe
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\br.mateus.DesafioMinhaVida.Tests.dll.config
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\br.mateus.DesafioMinhaVida.Tests.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\br.mateus.DesafioMinhaVida.Tests.pdb
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\br.mateus.DesafioMinhaVida.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\DesafioMinhaVida.Persistencia.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\br.mateus.DesafioMinhaVida.pdb
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\DesafioMinhaVida.Persistencia.pdb
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\obj\Debug\DesafioMinhaVida.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\obj\Debug\br.mateus.DesafioMinhaVida.Tests.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\obj\Debug\br.mateus.DesafioMinhaVida.Tests.pdb

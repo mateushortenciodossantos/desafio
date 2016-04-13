@@ -1,0 +1,52 @@
+﻿@model IEnumerable<br.mateus.DesafioMinhaVida.ViewModel.GuitarraViewModel>
+
+@{
+    ViewBag.Title = "Listar";
+    Layout = "~/Views/_LayoutPage.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Cadastrar Nova Guitarra", "Cadastrar")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Preco)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DataInclusao)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Preco)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Descricao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DataInclusao)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Editar", new { id=item.Id }) |
+            @Html.ActionLink("Ver Mais", "Detalhes", new { id=item.Id }) |
+            @Html.ActionLink("Deletar", "Deletar", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,11 +1,14 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioMinhaVida", "br.mateus.DesafioMinhaVida\DesafioMinhaVida.csproj", "{E0C618FE-3919-4D28-9A5B-52F934F69127}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioMinhaVida.Web", "DesafioMinhaVida.Web\DesafioMinhaVida.Web.csproj", "{E0C618FE-3919-4D28-9A5B-52F934F69127}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioMinhaVida.Tests", "br.mateus.DesafioMinhaVida.Tests\DesafioMinhaVida.Tests.csproj", "{B6EF01A0-4007-49CB-BBD9-7B5E39D95AE8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioMinhaVida.Tests", "DesafioMinhaVida.Tests\DesafioMinhaVida.Tests.csproj", "{B6EF01A0-4007-49CB-BBD9-7B5E39D95AE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioMinhaVida.Persistencia", "DesafioMinhaVida.Persistencia\DesafioMinhaVida.Persistencia.csproj", "{64C31153-084E-43FB-A8C4-1F851A257D54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioMinhaVida.API", "DesafioMinhaVida.API\DesafioMinhaVida.API.csproj", "{EC98DEF9-1256-4D0B-8E48-F5E0EE5ABBB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +24,14 @@ Global
 		{B6EF01A0-4007-49CB-BBD9-7B5E39D95AE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6EF01A0-4007-49CB-BBD9-7B5E39D95AE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6EF01A0-4007-49CB-BBD9-7B5E39D95AE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64C31153-084E-43FB-A8C4-1F851A257D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C31153-084E-43FB-A8C4-1F851A257D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C31153-084E-43FB-A8C4-1F851A257D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C31153-084E-43FB-A8C4-1F851A257D54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC98DEF9-1256-4D0B-8E48-F5E0EE5ABBB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC98DEF9-1256-4D0B-8E48-F5E0EE5ABBB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC98DEF9-1256-4D0B-8E48-F5E0EE5ABBB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC98DEF9-1256-4D0B-8E48-F5E0EE5ABBB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
