@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
-namespace br.mateus.DesafioMinhaVida.Exceptions
+namespace br.mateus.DesafioMinhaVida.Web.Exceptions
 {
     public class ImageUploaderExceptions : Exception
     {

@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Web;
+﻿using System.Globalization;
 using System.Web.Mvc;
 
-namespace br.mateus.DesafioMinhaVida.CustomBinder
+namespace br.mateus.DesafioMinhaVida.Web.CustomBinder
 {
    public class DoubleModelBinder : DefaultModelBinder
 {

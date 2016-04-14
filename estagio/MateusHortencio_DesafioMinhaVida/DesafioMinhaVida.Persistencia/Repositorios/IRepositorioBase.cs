@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace br.mateus.DesafioMinhaVida.Repositorios
+namespace br.mateus.DesafioMinhaVida.DAO.Repositorios
 {
     public interface IRepositorioBase<T>
     {

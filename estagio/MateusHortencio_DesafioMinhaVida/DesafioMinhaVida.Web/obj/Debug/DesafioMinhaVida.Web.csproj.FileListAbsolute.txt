@@ -122,3 +122,5 @@ C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Web\obj\Debug\DesafioMinhaVida.Web.csprojResolveAssemblyReference.cache
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Web\obj\Debug\br.mateus.DesafioMinhaVida.dll
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Web\obj\Debug\br.mateus.DesafioMinhaVida.pdb
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Web\bin\DesafioMinhaVida.Models.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Web\bin\DesafioMinhaVida.Models.pdb

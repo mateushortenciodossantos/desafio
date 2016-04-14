@@ -52,6 +52,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DesafioMinhaVida.API\DesafioMinhaVida.API.csproj">
+      <Project>{ec98def9-1256-4d0b-8e48-f5e0ee5abbb4}</Project>
+      <Name>DesafioMinhaVida.API</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesafioMinhaVida.Persistencia\DesafioMinhaVida.DAO.csproj">
+      <Project>{64c31153-084e-43fb-a8c4-1f851a257d54}</Project>
+      <Name>DesafioMinhaVida.DAO</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DesafioMinhaVida.Web\DesafioMinhaVida.Web.csproj">
       <Project>{E0C618FE-3919-4D28-9A5B-52F934F69127}</Project>
       <Name>DesafioMinhaVida.Web</Name>

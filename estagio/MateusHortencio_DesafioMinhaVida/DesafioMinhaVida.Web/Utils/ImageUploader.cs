@@ -1,4 +1,4 @@
-﻿using br.mateus.DesafioMinhaVida.Exceptions;
+﻿using br.mateus.DesafioMinhaVida.Web.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -6,7 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Web;
 
-namespace br.mateus.DesafioMinhaVida.Utils
+namespace br.mateus.DesafioMinhaVida.Web.Utils
 {
     public class ImageUploader : IUploader
     {

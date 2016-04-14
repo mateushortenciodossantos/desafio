@@ -1,14 +1,14 @@
-﻿using br.mateus.DesafioMinhaVida.Context;
-using br.mateus.DesafioMinhaVida.Exceptions;
-using br.mateus.DesafioMinhaVida.Models;
-using br.mateus.DesafioMinhaVida.UnitsOfWork;
-using br.mateus.DesafioMinhaVida.Utils;
-using br.mateus.DesafioMinhaVida.ViewModel;
+﻿using br.mateus.DesafioMinhaVida.Models.Context;
+using br.mateus.DesafioMinhaVida.Web.Exceptions;
+using br.mateus.DesafioMinhaVida.DAO.UnitsOfWork;
+using br.mateus.DesafioMinhaVida.Web.Utils;
+using br.mateus.DesafioMinhaVida.Web.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Web;
+using br.mateus.DesafioMinhaVida.Models.Models;
 
-namespace DesafioMinhaVida.Persistencia.BO
+namespace DesafioMinhaVida.Web.BO
 {
     public class GuitarraBO
     {

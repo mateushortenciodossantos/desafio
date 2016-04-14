@@ -243,9 +243,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="API\GuitarrasController.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="BO\GuitarraBO.cs" />
     <Compile Include="Controllers\GuitarrasController.cs" />
     <Compile Include="CustomBinder\DoubleModelBinder.cs" />
@@ -282,14 +280,17 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Content\imgs\" />
     <Folder Include="Content\Temp\imgs\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DesafioMinhaVida.Persistencia\DesafioMinhaVida.Persistencia.csproj">
+    <ProjectReference Include="..\DesafioMinhaVida.Models\DesafioMinhaVida.Models.csproj">
+      <Project>{329e78a6-40a7-4521-b0bb-3793bb51c7fc}</Project>
+      <Name>DesafioMinhaVida.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesafioMinhaVida.Persistencia\DesafioMinhaVida.DAO.csproj">
       <Project>{64c31153-084e-43fb-a8c4-1f851a257d54}</Project>
-      <Name>DesafioMinhaVida.Persistencia</Name>
+      <Name>DesafioMinhaVida.DAO</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

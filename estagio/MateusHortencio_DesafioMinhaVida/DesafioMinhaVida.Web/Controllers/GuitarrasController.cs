@@ -1,13 +1,13 @@
 ﻿using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using br.mateus.DesafioMinhaVida.Context;
 using System.Configuration;
-using br.mateus.DesafioMinhaVida.Exceptions;
-using DesafioMinhaVida.Persistencia.BO;
-using br.mateus.DesafioMinhaVida.ViewModel;
+using br.mateus.DesafioMinhaVida.Web.Exceptions;
+using DesafioMinhaVida.Web.BO;
+using br.mateus.DesafioMinhaVida.Web.ViewModel;
+using br.mateus.DesafioMinhaVida.Models.Context;
 
-namespace br.mateus.DesafioMinhaVida.Controllers
+namespace br.mateus.DesafioMinhaVida.Web.Controllers
 {
     public class GuitarrasController : Controller
     {
@@ -82,7 +82,7 @@ namespace br.mateus.DesafioMinhaVida.Controllers
                 return HttpNotFound();
             }
             return View(guitarra);
-        }
+        }   
 
         [HttpPost]
         [ValidateAntiForgeryToken]

@@ -4,7 +4,7 @@ using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace br.mateus.DesafioMinhaVida.Repositorios
+namespace br.mateus.DesafioMinhaVida.DAO.Repositorios
 {
     public class RepositorioBase<T> : IRepositorioBase<T> where T : class
     {

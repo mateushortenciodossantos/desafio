@@ -1,13 +1,8 @@
-﻿using br.mateus.DesafioMinhaVida.Context;
-using br.mateus.DesafioMinhaVida.Models;
-using br.mateus.DesafioMinhaVida.Repositorios;
-using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Web;
+﻿using br.mateus.DesafioMinhaVida.Models.Context;
+using br.mateus.DesafioMinhaVida.Models.Models;
+using br.mateus.DesafioMinhaVida.DAO.Repositorios;
 
-namespace br.mateus.DesafioMinhaVida.UnitsOfWork
+namespace br.mateus.DesafioMinhaVida.DAO.UnitsOfWork
 {
     public class UnitOfWork
     {

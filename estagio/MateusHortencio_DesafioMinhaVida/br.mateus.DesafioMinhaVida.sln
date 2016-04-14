@@ -6,9 +6,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioMinhaVida.Web", "Des
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioMinhaVida.Tests", "DesafioMinhaVida.Tests\DesafioMinhaVida.Tests.csproj", "{B6EF01A0-4007-49CB-BBD9-7B5E39D95AE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioMinhaVida.Persistencia", "DesafioMinhaVida.Persistencia\DesafioMinhaVida.Persistencia.csproj", "{64C31153-084E-43FB-A8C4-1F851A257D54}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioMinhaVida.DAO", "DesafioMinhaVida.Persistencia\DesafioMinhaVida.DAO.csproj", "{64C31153-084E-43FB-A8C4-1F851A257D54}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioMinhaVida.API", "DesafioMinhaVida.API\DesafioMinhaVida.API.csproj", "{EC98DEF9-1256-4D0B-8E48-F5E0EE5ABBB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioMinhaVida.Models", "DesafioMinhaVida.Models\DesafioMinhaVida.Models.csproj", "{329E78A6-40A7-4521-B0BB-3793BB51C7FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{EC98DEF9-1256-4D0B-8E48-F5E0EE5ABBB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC98DEF9-1256-4D0B-8E48-F5E0EE5ABBB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC98DEF9-1256-4D0B-8E48-F5E0EE5ABBB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{329E78A6-40A7-4521-B0BB-3793BB51C7FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329E78A6-40A7-4521-B0BB-3793BB51C7FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329E78A6-40A7-4521-B0BB-3793BB51C7FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329E78A6-40A7-4521-B0BB-3793BB51C7FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,6 @@
 ﻿using System.Web;
 
-namespace br.mateus.DesafioMinhaVida.Utils
+namespace br.mateus.DesafioMinhaVida.Web.Utils
 {
     public interface IUploader
     {

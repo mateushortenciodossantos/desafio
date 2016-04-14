@@ -100,3 +100,10 @@ C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\obj\Debug\DesafioMinhaVida.Tests.csprojResolveAssemblyReference.cache
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\obj\Debug\br.mateus.DesafioMinhaVida.Tests.dll
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\obj\Debug\br.mateus.DesafioMinhaVida.Tests.pdb
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\DesafioMinhaVida.API.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\System.Web.Http.Cors.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\System.Web.Cors.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\DesafioMinhaVida.API.pdb
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\System.Web.Http.Cors.xml
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\DesafioMinhaVida.Models.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Tests\bin\Debug\DesafioMinhaVida.Models.pdb

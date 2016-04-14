@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace br.mateus.DesafioMinhaVida.ViewModel
+namespace br.mateus.DesafioMinhaVida.Web.ViewModel
 {
     public class GuitarraViewModel
     {
@@ -13,6 +13,13 @@ namespace br.mateus.DesafioMinhaVida.ViewModel
         [DisplayName("Preço(R$)")]
         [Required(ErrorMessage = "Digite um Preço!")]
         public double Preco { get; set; }
+        public string PrecoString
+        {
+            get
+            {
+                return string.Format("{0:#.00}", Preco);
+            }
+        }
         [DisplayName("Descrição")]
         [Required(ErrorMessage = "Digite uma Descrição!")]
         public string Descricao { get; set; }

@@ -1,5 +1,5 @@
-﻿using br.mateus.DesafioMinhaVida.Context;
-using br.mateus.DesafioMinhaVida.UnitsOfWork;
+﻿using br.mateus.DesafioMinhaVida.Models.Context;
+using br.mateus.DesafioMinhaVida.DAO.UnitsOfWork;
 using System.Web.Http;
 using System.Web.Http.Cors;
 
