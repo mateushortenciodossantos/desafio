@@ -18,11 +18,21 @@ namespace br.mateus.DesafioMinhaVida.Web.Utils
             {
                 if (arquivo.ContentLength > 0)
                 {
-                    var nome = string.Format("{0}_{1:}{2:00}{3:00}{4}", nomeArquivo, DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, Path.GetExtension(arquivo.FileName));
-                    var finalPath = Path.Combine(caminhoFisico, nome);
-                    arquivo.SaveAs(finalPath);
+                    var extension = Path.GetExtension(arquivo.FileName);
 
-                    return string.Format("{0}/{1}", caminhoLogico, nome);
+                    if (string.Equals(extension, ".jpg") || string.Equals(extension, ".png"))
+                    {
+                        var nome = string.Format("{0}_{1:}{2:00}{3:00}{4}", nomeArquivo, DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, extension);
+                        var finalPath = Path.Combine(caminhoFisico, nome);
+                        arquivo.SaveAs(finalPath);
+
+                        return string.Format("{0}/{1}", caminhoLogico, nome);
+                    }
+                    else
+                    {
+                        throw new ImageUploaderExceptions(string.Format("Extensão {0} não permitida", extension));
+                    }
+                    
                 }
                 else
                 {
@@ -31,7 +41,7 @@ namespace br.mateus.DesafioMinhaVida.Web.Utils
             }
             else
             {
-                throw new ImageUploaderExceptions("Sem arquivo");
+                throw new ImageUploaderExceptions("Sem arquivo(nulo)");
             }
 
         }

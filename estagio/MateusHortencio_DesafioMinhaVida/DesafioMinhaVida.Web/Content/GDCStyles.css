@@ -1,0 +1,12 @@
+﻿#json-objects {
+    display: flex;
+    flex-wrap: wrap;
+    color: #000;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#json-objects > * {
+    min-width: 25%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}

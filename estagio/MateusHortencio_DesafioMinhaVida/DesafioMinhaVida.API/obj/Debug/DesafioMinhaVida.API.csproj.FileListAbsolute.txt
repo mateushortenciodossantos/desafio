@@ -13,7 +13,10 @@ C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\bin\DesafioMinhaVida.API.dll.config
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\bin\DesafioMinhaVida.API.dll
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\bin\DesafioMinhaVida.API.pdb
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\bin\DesafioMinhaVida.Models.dll
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\bin\DesafioMinhaVida.Persistencia.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\bin\EntityFramework.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\bin\EntityFramework.SqlServer.dll
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\bin\Microsoft.AI.Agent.Intercept.dll
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\bin\Microsoft.AI.DependencyCollector.dll
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\bin\Microsoft.AI.PerfCounterCollector.dll
@@ -28,8 +31,10 @@ C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\bin\System.Web.Http.Cors.dll
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\bin\System.Web.Http.dll
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\bin\System.Web.Http.WebHost.dll
-C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\bin\EntityFramework.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\bin\DesafioMinhaVida.Models.pdb
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\bin\DesafioMinhaVida.Persistencia.pdb
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\bin\EntityFramework.xml
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\bin\EntityFramework.SqlServer.xml
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\bin\Microsoft.AI.DependencyCollector.xml
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\bin\Microsoft.AI.Web.xml
@@ -41,11 +46,6 @@ C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\bin\System.Net.Http.Formatting.xml
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\bin\System.Web.Http.xml
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\bin\System.Web.Http.WebHost.xml
-C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\bin\EntityFramework.xml
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\obj\Debug\DesafioMinhaVida.API.csprojResolveAssemblyReference.cache
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\obj\Debug\DesafioMinhaVida.API.dll
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\obj\Debug\DesafioMinhaVida.API.pdb
-C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\bin\EntityFramework.SqlServer.dll
-C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\bin\EntityFramework.SqlServer.xml
-C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\bin\DesafioMinhaVida.Models.dll
-C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.API\bin\DesafioMinhaVida.Models.pdb

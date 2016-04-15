@@ -16,6 +16,7 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="~/Content/GDCStyles.css" rel="stylesheet" type="text/css">
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -40,5 +41,6 @@
     <script src="~/Content/plugin/js/jquery.js"></script>
     <script src="~/Content/plugin/js/bootstrap.min.js"></script>
     <script src="~/Content/plugin/js/grayscale.js"></script>
+    @RenderSection("scripts", false)
 </body>
 </html>

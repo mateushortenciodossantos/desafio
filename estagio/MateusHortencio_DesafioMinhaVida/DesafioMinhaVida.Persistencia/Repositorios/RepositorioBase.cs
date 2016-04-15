@@ -1,4 +1,5 @@
-﻿using System;
+﻿using br.mateus.DesafioMinhaVida.Models.Context;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -8,10 +9,10 @@ namespace br.mateus.DesafioMinhaVida.DAO.Repositorios
 {
     public class RepositorioBase<T> : IRepositorioBase<T> where T : class
     {
-        private DbContext _context;
+        private ProdutoContext _context;
         private DbSet<T> _dbSet;
         
-        public RepositorioBase(DbContext context)
+        public RepositorioBase(ProdutoContext context)
         {
             _context = context;
             _dbSet = _context.Set<T>();

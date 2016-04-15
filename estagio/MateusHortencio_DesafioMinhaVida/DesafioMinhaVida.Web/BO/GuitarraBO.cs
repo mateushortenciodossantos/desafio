@@ -1,5 +1,4 @@
 ﻿using br.mateus.DesafioMinhaVida.Models.Context;
-using br.mateus.DesafioMinhaVida.Web.Exceptions;
 using br.mateus.DesafioMinhaVida.DAO.UnitsOfWork;
 using br.mateus.DesafioMinhaVida.Web.Utils;
 using br.mateus.DesafioMinhaVida.Web.ViewModel;
@@ -68,16 +67,8 @@ namespace DesafioMinhaVida.Web.BO
 
             if (file != null)
             {
-                try
-                {
-                    var url = new ImageUploader().Upload(file, model.Nome.Replace(" ", "_"), caminhoFisico);
-                    model.UrlImagem = url;
-                }
-                catch (ImageUploaderExceptions ex)
-                {
-                    throw new ImageUploaderExceptions(ex.Message);
-                }
-
+                var url = new ImageUploader().Upload(file, model.Nome.Replace(" ", "_"), caminhoFisico);
+                model.UrlImagem = url;
             }
             model.DataInclusao = DateTime.Now;
 
@@ -102,14 +93,15 @@ namespace DesafioMinhaVida.Web.BO
             _context.SaveChanges();
         }
 
-        public void DeletarGuitarraViewModel(GuitarraViewModel viewModel, string urlImagem)
+        public void DeletarGuitarraViewModel(int id, string urlImagem)
         {
-            var model = ParseGuitarra(viewModel);
+            var model = _unit.GuitarraRepositorio.ProcurarPorId(id);
 
             if (!string.IsNullOrEmpty(model.UrlImagem))
             {
                 System.IO.File.Delete(urlImagem);
             }
+
             _unit.GuitarraRepositorio.Deletar(model);
             _unit.Salvar();
         }
@@ -121,5 +113,14 @@ namespace DesafioMinhaVida.Web.BO
 
             return viewModel;
         }
+
+        public void DisposeContext(bool disposing)
+        {
+            if (disposing)
+            {
+                _context.Dispose();
+            }
+        }
+
     }
 }

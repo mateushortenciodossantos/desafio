@@ -1,12 +1,12 @@
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Persistencia\bin\Debug\DesafioMinhaVida.Persistencia.dll.config
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Persistencia\bin\Debug\DesafioMinhaVida.Persistencia.dll
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Persistencia\bin\Debug\DesafioMinhaVida.Persistencia.pdb
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Persistencia\bin\Debug\DesafioMinhaVida.Models.dll
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Persistencia\bin\Debug\EntityFramework.dll
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Persistencia\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Persistencia\bin\Debug\DesafioMinhaVida.Models.pdb
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Persistencia\bin\Debug\EntityFramework.xml
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Persistencia\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Persistencia\obj\Debug\DesafioMinhaVida.DAO.csprojResolveAssemblyReference.cache
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Persistencia\obj\Debug\DesafioMinhaVida.Persistencia.dll
 C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Persistencia\obj\Debug\DesafioMinhaVida.Persistencia.pdb
-C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Persistencia\bin\Debug\DesafioMinhaVida.Models.dll
-C:\Users\Negro cotista\Desktop\desafio\estagio\MateusHortencio_DesafioMinhaVida\DesafioMinhaVida.Persistencia\bin\Debug\DesafioMinhaVida.Models.pdb

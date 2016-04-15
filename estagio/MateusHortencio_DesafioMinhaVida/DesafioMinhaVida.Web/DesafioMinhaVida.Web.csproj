@@ -169,6 +169,7 @@
     <Content Include="Content\plugin\oldboots\bootstrap-theme.min.css" />
     <Content Include="Content\plugin\oldboots\bootstrap.css" />
     <Content Include="Content\plugin\oldboots\bootstrap.min.css" />
+    <Content Include="Content\GDCStyles.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
@@ -220,6 +221,7 @@
     <Content Include="Content\plugin\oldboots\bootstrap.css.map" />
     <Content Include="Content\plugin\oldboots\bootstrap.min.css.map" />
     <None Include="scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="scripts\gdc\homegdc.js" />
     <Content Include="scripts\jquery-1.10.2.js" />
     <Content Include="scripts\jquery-1.10.2.min.js" />
     <Content Include="scripts\jquery-1.10.2.min.map" />

@@ -5,19 +5,16 @@ using System.Configuration;
 using br.mateus.DesafioMinhaVida.Web.Exceptions;
 using DesafioMinhaVida.Web.BO;
 using br.mateus.DesafioMinhaVida.Web.ViewModel;
-using br.mateus.DesafioMinhaVida.Models.Context;
 
 namespace br.mateus.DesafioMinhaVida.Web.Controllers
 {
     public class GuitarrasController : Controller
     {
         GuitarraBO bo;
-        ProdutoContext _context;
 
         public GuitarrasController()
         {
             bo = new GuitarraBO();
-            _context = new ProdutoContext();
         }
 
         public ActionResult Index()
@@ -51,23 +48,31 @@ namespace br.mateus.DesafioMinhaVida.Web.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Cadastrar([Bind(Include = "Id,Nome,Preco,Descricao")] GuitarraViewModel viewModel, HttpPostedFileBase file)
+        public ActionResult Cadastrar([Bind(Include = "Id,Nome,PrecoString,Descricao")] GuitarraViewModel viewModel, HttpPostedFileBase file)
         {
             if (ModelState.IsValid)
             {
                 try
                 {
-                    var caminhoFisico = HttpContext.Server.MapPath(ConfigurationManager.AppSettings["ImagePath"]);
+                    string caminhoFisico = null;
+                    if(file != null)
+                        caminhoFisico = HttpContext.Server.MapPath(ConfigurationManager.AppSettings["ImagePath"]);
                     bo.CadastrarGuitarraViewModel(viewModel, file, caminhoFisico);
+                    var viewModelRetorno = new GuitarraViewModel() { MensagemSucesso = "Guitarra Cadastrada com Sucesso!" };
+
+                    return View(viewModelRetorno);
                 }
                 catch (ImageUploaderExceptions ex)
                 {
-                    viewModel.Erro = ex.Message;
+                    viewModel.MensagemErro = ex.Message;
+                    viewModel.MensagemSucesso = null;
                     return View(viewModel);
                 }
             }
 
-            return RedirectToAction("Listar");
+            viewModel.MensagemErro = "Erro ao cadastrar Guitarra";
+            viewModel.MensagemSucesso = null;
+            return View(viewModel);
         }
 
         public ActionResult Editar(int? id)
@@ -86,18 +91,30 @@ namespace br.mateus.DesafioMinhaVida.Web.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Editar([Bind(Include = "Id,Nome,Preco,Descricao,DataInclusao,UrlImagem")] GuitarraViewModel viewModel, HttpPostedFileBase file)
+        public ActionResult Editar([Bind(Include = "Id,Nome,PrecoString,Descricao,DataInclusao,UrlImagem")] GuitarraViewModel viewModel, HttpPostedFileBase file)
         {
             if (ModelState.IsValid)
             {
-                //Busca o caminho fisico da imagem antiga da guitarra
-                var pathImagem = HttpContext.Server.MapPath(viewModel.UrlImagem);
+                try
+                {
+                    //Busca o caminho fisico da imagem antiga da guitarra
+                    var pathImagem = HttpContext.Server.MapPath(viewModel.UrlImagem);
 
-                //Busca o diretorio de imagens
-                var caminhoFisico = HttpContext.Server.MapPath(ConfigurationManager.AppSettings["ImagePath"]);
-                bo.AtualizarGuitarraViewModel(viewModel, file, pathImagem, caminhoFisico);
-                return RedirectToAction("Index");
+                    //Busca o diretorio de imagens
+                    var caminhoFisico = HttpContext.Server.MapPath(ConfigurationManager.AppSettings["ImagePath"]);
+                    bo.AtualizarGuitarraViewModel(viewModel, file, pathImagem, caminhoFisico);
+                    return RedirectToAction("Listar");
+                }
+                catch (ImageUploaderExceptions ex)
+                {
+                    viewModel.MensagemErro = ex.Message;
+                    viewModel.MensagemSucesso = null;
+                    return View(viewModel);
+                }
             }
+
+            viewModel = bo.ProcurarGuitarraViewModelPorId(viewModel.Id);
+            viewModel.MensagemErro = "Erro ao cadastrar Guitarra";
             return View(viewModel);
         }
 
@@ -126,17 +143,14 @@ namespace br.mateus.DesafioMinhaVida.Web.Controllers
                 urlImagem = HttpContext.Server.MapPath(guitarra.UrlImagem);                
             }
 
-            bo.DeletarGuitarraViewModel(guitarra, urlImagem);
+            bo.DeletarGuitarraViewModel(id, urlImagem);
 
-            return RedirectToAction("Index");
+            return RedirectToAction("Listar");
         }
 
         protected override void Dispose(bool disposing)
         {
-            if (disposing)
-            {
-                _context.Dispose();
-            }
+            bo.DisposeContext(disposing);
             base.Dispose(disposing);
         }
     }
