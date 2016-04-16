@@ -22,6 +22,7 @@ namespace DesafioMinhaVida.Web.BO
 
         public Guitarra ParseGuitarra(GuitarraViewModel viewModel)
         {
+            //Converte GuitarraViewModel em Guitarra
             var guitarra = new Guitarra()
             {
                 Id = viewModel.Id,
@@ -36,6 +37,7 @@ namespace DesafioMinhaVida.Web.BO
 
         public GuitarraViewModel ParseGuitarraViewModel(Guitarra model)
         {
+            //Converte Guitarra em GuitarraViewModel
             var guitarraViewModel = new GuitarraViewModel()
             {
                 Id = model.Id,
@@ -57,7 +59,7 @@ namespace DesafioMinhaVida.Web.BO
             {
                 viewModels.Add(ParseGuitarraViewModel(model));
             }
-
+            //retorna uma coleção de viewmodel de guitarras
             return viewModels;
         }
 
@@ -67,11 +69,12 @@ namespace DesafioMinhaVida.Web.BO
 
             if (file != null)
             {
+                //salva imagem
                 var url = new ImageUploader().Upload(file, model.Nome.Replace(" ", "_"), caminhoFisico);
                 model.UrlImagem = url;
             }
             model.DataInclusao = DateTime.Now;
-
+            //Adiciona Guitarra
             _unit.GuitarraRepositorio.Adicionar(model);
             _context.SaveChanges();
         }
@@ -109,6 +112,8 @@ namespace DesafioMinhaVida.Web.BO
         public GuitarraViewModel ProcurarGuitarraViewModelPorId(int? id)
         {
             var model = _unit.GuitarraRepositorio.ProcurarPorId(id);
+            if (model == null)
+                return null;
             var viewModel = ParseGuitarraViewModel(model);
 
             return viewModel;

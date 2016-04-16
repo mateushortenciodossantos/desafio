@@ -24,6 +24,9 @@
         <th>
             @Html.DisplayNameFor(model => model.DataInclusao)
         </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SKU)
+        </th>
         <th></th>
     </tr>
 
@@ -40,6 +43,9 @@
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.DataInclusao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SKU)
         </td>
         <td>
             @Html.ActionLink("Editar", "Editar", new { id=item.Id }) |

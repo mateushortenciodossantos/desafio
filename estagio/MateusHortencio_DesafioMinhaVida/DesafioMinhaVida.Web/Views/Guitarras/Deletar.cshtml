@@ -6,60 +6,67 @@
 }
 
 <h2>Deletar</h2>
+@if (Model != null)
+{
+    <h3>Tem certeza que quer deleta-lá?</h3>
+    <div>
+        <h4>Guitarra</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Nome)
+            </dt>
 
-<h3>Tem certeza que quer deleta-lá?</h3>
-<div>
-    <h4>Guitarra</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Nome)
-        </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Nome)
+            </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Nome)
-        </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Preco)
+            </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Preco)
-        </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Preco)
+            </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Preco)
-        </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Descricao)
+            </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Descricao)
-        </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Descricao)
+            </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Descricao)
-        </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.DataInclusao)
+            </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.DataInclusao)
-        </dt>
+            <dd>
+                @Html.DisplayFor(model => model.DataInclusao)
+            </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.DataInclusao)
-        </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.UrlImagem)
+            </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.UrlImagem)
-        </dt>
+            <dd>
+                @Html.DisplayFor(model => model.UrlImagem)
+            </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.UrlImagem)
-        </dd>
+        </dl>
 
-    </dl>
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
 
-    @using (Html.BeginForm()) {
-        @Html.AntiForgeryToken()
-
-        <div class="form-actions no-color">
-            <input type="submit" value="Delete" class="btn btn-danger" /> |
-            @Html.ActionLink("Cancelar", "Index")
-        </div>
-    }
-</div>
+            <div class="form-actions no-color">
+                <input type="submit" value="Delete" class="btn btn-danger" /> |
+                @Html.ActionLink("Cancelar", "Index")
+            </div>
+        }  
+    </div>
+}
+else
+{
+    <h1>Guitarra não existe!</h1>
+}

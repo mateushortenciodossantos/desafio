@@ -1,5 +1,4 @@
-﻿using System.Net;
-using System.Web;
+﻿using System.Web;
 using System.Web.Mvc;
 using System.Configuration;
 using br.mateus.DesafioMinhaVida.Web.Exceptions;
@@ -24,6 +23,7 @@ namespace br.mateus.DesafioMinhaVida.Web.Controllers
 
         public ActionResult Listar()
         {
+            //Traz uma coleção de Guitarras e Envia para a View
             return View(bo.ListarGuitarraViewModel());
         }
 
@@ -31,13 +31,11 @@ namespace br.mateus.DesafioMinhaVida.Web.Controllers
         {
             if (id == null)
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                return RedirectToAction("Listar");
             }
+            //Pesquisa traz uma ViewModel de Guitarra com base em um id, caso a guitarra seja nula, o tratamento é feito na view
             var guitarra = bo.ProcurarGuitarraViewModelPorId(id);
-            if (guitarra == null)
-            {
-                return HttpNotFound();
-            }
+            
             return View(guitarra);
         }
 
@@ -47,29 +45,34 @@ namespace br.mateus.DesafioMinhaVida.Web.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
+        //Token para validação de acesso
+        [ValidateAntiForgeryToken]    //Bind nos atributos necessários para o cadastro                              //imagem recebida pela view
         public ActionResult Cadastrar([Bind(Include = "Id,Nome,PrecoString,Descricao")] GuitarraViewModel viewModel, HttpPostedFileBase file)
         {
+            //Se o bind ocorrer corretamente
             if (ModelState.IsValid)
             {
                 try
                 {
                     string caminhoFisico = null;
                     if(file != null)
+                        //Procura o caminho físico a partir de uma key do web.config que contém o caminho virtual para a pasta de imagens
                         caminhoFisico = HttpContext.Server.MapPath(ConfigurationManager.AppSettings["ImagePath"]);
                     bo.CadastrarGuitarraViewModel(viewModel, file, caminhoFisico);
+                    //Se tudo der certo uma mensagem de Sucesso é atribuida na model
                     var viewModelRetorno = new GuitarraViewModel() { MensagemSucesso = "Guitarra Cadastrada com Sucesso!" };
-
+                    //E retorna para a view
                     return View(viewModelRetorno);
-                }
+                } //Em caso de Exception
                 catch (ImageUploaderExceptions ex)
                 {
+                    //É retornada uma view model com uma mensagem de erro vinda da exception
                     viewModel.MensagemErro = ex.Message;
                     viewModel.MensagemSucesso = null;
                     return View(viewModel);
                 }
             }
-
+            //Caso o bind tenha sido errado, é emitida uma mensagem de erro pela view model
             viewModel.MensagemErro = "Erro ao cadastrar Guitarra";
             viewModel.MensagemSucesso = null;
             return View(viewModel);
@@ -77,15 +80,14 @@ namespace br.mateus.DesafioMinhaVida.Web.Controllers
 
         public ActionResult Editar(int? id)
         {
+            //Se o id for nulo ele redireciona para a Lista de Guitarras
             if (id == null)
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                return RedirectToAction("Listar");
             }
+            
             var guitarra = bo.ProcurarGuitarraViewModelPorId(id);
-            if (guitarra == null)
-            {
-                return HttpNotFound();
-            }
+            
             return View(guitarra);
         }   
 
@@ -114,7 +116,7 @@ namespace br.mateus.DesafioMinhaVida.Web.Controllers
             }
 
             viewModel = bo.ProcurarGuitarraViewModelPorId(viewModel.Id);
-            viewModel.MensagemErro = "Erro ao cadastrar Guitarra";
+            viewModel.MensagemErro = "Erro ao editar Guitarra";
             return View(viewModel);
         }
 
@@ -122,13 +124,10 @@ namespace br.mateus.DesafioMinhaVida.Web.Controllers
         {
             if (id == null)
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                return RedirectToAction("Listar");
             }
             var guitarra = bo.ProcurarGuitarraViewModelPorId(id);
-            if (guitarra == null)
-            {
-                return HttpNotFound();
-            }
+            
             return View(guitarra);
         }
 
@@ -138,11 +137,12 @@ namespace br.mateus.DesafioMinhaVida.Web.Controllers
         {
             var guitarra = bo.ProcurarGuitarraViewModelPorId(id);
             var urlImagem = string.Empty;
+            //Caso a Guitarra tenha uma imagem, pegamos o caminho físico até a imagem
             if (!string.IsNullOrEmpty(guitarra.UrlImagem))
             {
                 urlImagem = HttpContext.Server.MapPath(guitarra.UrlImagem);                
             }
-
+            // e deletamos a imagem(caso exista), e a guitarra
             bo.DeletarGuitarraViewModel(id, urlImagem);
 
             return RedirectToAction("Listar");
@@ -150,6 +150,7 @@ namespace br.mateus.DesafioMinhaVida.Web.Controllers
 
         protected override void Dispose(bool disposing)
         {
+            //Liberação de recursos
             bo.DisposeContext(disposing);
             base.Dispose(disposing);
         }

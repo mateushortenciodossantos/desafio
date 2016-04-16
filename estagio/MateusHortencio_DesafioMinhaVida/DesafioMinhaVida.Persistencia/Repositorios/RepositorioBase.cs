@@ -7,6 +7,7 @@ using System.Linq.Expressions;
 
 namespace br.mateus.DesafioMinhaVida.DAO.Repositorios
 {
+    //Implementa a interface com os métodos mais comuns para um crud e indica que T é uma classe
     public class RepositorioBase<T> : IRepositorioBase<T> where T : class
     {
         private ProdutoContext _context;

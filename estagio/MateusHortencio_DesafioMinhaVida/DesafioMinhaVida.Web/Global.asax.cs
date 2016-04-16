@@ -13,7 +13,7 @@ namespace br.mateus.DesafioMinhaVida
         {
             //ordenação nos registros
             AreaRegistration.RegisterAllAreas();
-            RouteConfig.RegisterRoutes(RouteTable.Routes);
+            RouteConfig.RegisterRoutes(RouteTable.Routes);//Code First, Criar sempre que a base nao exista, com base no ProdutoContext
             Database.SetInitializer(new CreateDatabaseIfNotExists<ProdutoContext>());
             ModelBinders.Binders.Add(typeof(double), new DoubleModelBinder());
         }

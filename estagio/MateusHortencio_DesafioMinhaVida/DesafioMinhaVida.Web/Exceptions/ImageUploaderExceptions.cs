@@ -15,19 +15,5 @@ namespace br.mateus.DesafioMinhaVida.Web.Exceptions
 
         }
 
-        public partial class ImagemVaziaException : ImageUploaderExceptions
-        {
-            public ImagemVaziaException()
-            {
-
-            }
-
-            public ImagemVaziaException(string mensagem)
-                :base(mensagem)
-            {
-                
-            }
-        }
-
     }
 }

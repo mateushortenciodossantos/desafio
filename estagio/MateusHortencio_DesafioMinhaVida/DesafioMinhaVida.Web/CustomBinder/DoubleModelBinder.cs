@@ -6,7 +6,7 @@ namespace br.mateus.DesafioMinhaVida.Web.CustomBinder
    public class DoubleModelBinder : DefaultModelBinder
 {
     public override object BindModel(ControllerContext controllerContext, ModelBindingContext bindingContext)
-    {
+    {//binder cadastrado no Global.asax para receber string com  virgula
         var result = bindingContext.ValueProvider.GetValue(bindingContext.ModelName);
         if (result != null && !string.IsNullOrEmpty(result.AttemptedValue))
         {

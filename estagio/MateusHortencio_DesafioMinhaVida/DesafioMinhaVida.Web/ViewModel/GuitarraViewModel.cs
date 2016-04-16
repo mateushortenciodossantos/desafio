@@ -22,7 +22,7 @@ namespace br.mateus.DesafioMinhaVida.Web.ViewModel
             }
             set
             {
-                Preco = Convert.ToDouble(value);
+                Preco = Convert.ToDouble(value);             
             }
         }
         [DisplayName("Descrição")]
