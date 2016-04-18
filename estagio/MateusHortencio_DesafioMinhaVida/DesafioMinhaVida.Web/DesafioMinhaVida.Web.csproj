@@ -247,8 +247,8 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="BO\GuitarraBO.cs" />
+    <Compile Include="Controllers\ErroController.cs" />
     <Compile Include="Controllers\GuitarrasController.cs" />
-    <Compile Include="CustomBinder\DoubleModelBinder.cs" />
     <Compile Include="Exceptions\ImageUploaderExceptions.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -272,8 +272,8 @@
     <Content Include="Views\Guitarras\Editar.cshtml" />
     <Content Include="Views\Guitarras\Listar.cshtml" />
     <Content Include="Views\Guitarras\Index.cshtml" />
-    <Content Include="Views\Erro\404.cshtml" />
-    <Content Include="Views\Erro\500.cshtml" />
+    <Content Include="Views\Erro\NotFind.cshtml" />
+    <Content Include="Views\Erro\InternalError.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

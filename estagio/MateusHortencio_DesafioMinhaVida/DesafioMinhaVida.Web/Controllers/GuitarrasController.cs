@@ -99,8 +99,10 @@ namespace br.mateus.DesafioMinhaVida.Web.Controllers
             {
                 try
                 {
+                    var pathImagem = string.Empty;
                     //Busca o caminho fisico da imagem antiga da guitarra
-                    var pathImagem = HttpContext.Server.MapPath(viewModel.UrlImagem);
+                    if (!string.IsNullOrEmpty(viewModel.UrlImagem))
+                        pathImagem = HttpContext.Server.MapPath(viewModel.UrlImagem);
 
                     //Busca o diretorio de imagens
                     var caminhoFisico = HttpContext.Server.MapPath(ConfigurationManager.AppSettings["ImagePath"]);

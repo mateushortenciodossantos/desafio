@@ -86,7 +86,8 @@ namespace DesafioMinhaVida.Web.BO
             if (file != null)
             {
                 //deleta a imagem antiga
-                System.IO.File.Delete(pathImagem);
+                if(!string.IsNullOrEmpty(pathImagem))
+                    System.IO.File.Delete(pathImagem);
                 var urlNovaImagem = new ImageUploader().Upload(file, model.Nome.Replace(" ", "_"), caminhoFisico);
 
                 model.UrlImagem = urlNovaImagem;

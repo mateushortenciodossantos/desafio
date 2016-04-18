@@ -52,29 +52,35 @@
             <dd>
                 @Html.DisplayFor(model => model.SKU)
             </dd>
-            <dt>
-                Miniatura de Imagem
-            </dt>
-            <dd>
-                <img src="@Model.UrlImagem" class="img-responsive col-sm-2" />
-            </dd>
+            @if (!string.IsNullOrEmpty(Model.UrlImagem))
+            {
+                <dt>
+                    Miniatura de Imagem
+                </dt>
+                <dd>
+                    <img src="@Model.UrlImagem" class="img-responsive col-sm-2" />
+                </dd>
+            }
+
         </dl>
-
-        <a href="#imgGuitarra" class="btn btn-primary" onclick="$('#imgGuitarra').modal();">Ver Imagem</a>
+        @if (!string.IsNullOrEmpty(Model.UrlImagem))
+        {
+            <a href="#imgGuitarra" class="btn btn-primary" onclick="$('#imgGuitarra').modal();">Ver Imagem</a>
+        }
     </div>
-        <div class="modal col-lg-8 fade" tabindex="-1" role="dialog" id="imgGuitarra">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="modal-body center-block">
+    <div class="modal col-lg-8 fade" tabindex="-1" role="dialog" id="imgGuitarra">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body center-block">
 
-                        <img src="@Model.UrlImagem" class="img-responsive" />
-                    </div>
+                    <img src="@Model.UrlImagem" class="img-responsive" />
                 </div>
             </div>
         </div>
+    </div>
 
         <p>
             @Html.ActionLink("Editar", "Editar", new { id = Model.Id }, new { @class = "btn btn-primary" }) |
